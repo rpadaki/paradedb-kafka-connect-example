@@ -48,7 +48,6 @@ docker compose exec -T kafka-connect \
         "topics": "messages",
         "connection.url": "jdbc:postgresql://paradedb:5432/postgres",
         "connection.user": "postgres",
-        "connection.password": "postgres",
         "auto.create": "true",
         "insert.mode": "insert",
         "table.name.format": "messages",
